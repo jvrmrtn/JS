@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: rgb(43, 41, 49);
+    color: rgb(192, 188, 204);
+    font-family: sans-serif;
+}
+
+.alert{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    transform: translateY(-100%);
+}
+
+.alert--online{
+    color: rgb(86, 236, 106);
+    text-align: center;
+    animation: reveal 4s ease;
+}
+
+.alert--offline{
+    color: rgb(236, 86, 86);
+    text-align: center;
+    animation: reveal 4s ease;
+}
+
+@keyframes reveal{
+    0%{
+        transform: translateY(-100%);
+    }
+    15%,
+    85%{
+        transform: translateY(0);
+    }
+}

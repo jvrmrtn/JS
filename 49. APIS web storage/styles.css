@@ -1,0 +1,23 @@
+.form{
+    margin: 1em;
+}
+
+.form__field{
+    display: flex;
+    justify-content: space-between;
+
+    width: 300px;
+
+    margin-bottom: 1em;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    
+    margin-left: 1em;
+}
+
+.info P{
+    margin: 0 1em;
+}

@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.permissions{
+    background-color: wheat;
+    border: 2px solid royalblue;
+    padding: 1em;
+    font-family: sans-serif;
+    color: royalblue;
+}
+
+.permissions:hover{
+    background-color: royalblue;
+    border: 2px solid wheat;
+    color: wheat;
+    transition: 0.5;
+}

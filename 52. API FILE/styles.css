@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(212, 80, 131);
+    font-family: sans-serif;
+    color: ivory;
+}
+
+.img{
+    max-width: 30%;
+}
+
+.images{
+    width: 100px;
+    
+}

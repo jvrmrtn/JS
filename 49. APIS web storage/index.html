@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <title>APIS WEB STORAGE</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../../CSS/03/normalize.css">
+    </head>
+
+    <body>
+        <form action="" id="form" class="form">
+            <div class="form__field">
+                <label for="key">Key</label>
+                <input type="text" name="key" id="key">
+            </div>
+                 
+            <div class="form__field">
+                <label for="value">Value</label>
+                <input type="text" name="value" id="value">
+            </div>
+
+            <input type="submit" value="Save">
+        </form>    
+
+        <div id="info" class="info">
+            <select name="keys" id="keys">
+                <option value="default">Select key</option>
+            </select>
+            <p id="infoValue"></p>
+        </div>
+
+        <script src="scripts.js"></script>
+    </body>
+
+</html>

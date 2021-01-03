@@ -1,0 +1,16 @@
+body{
+    background-color: lightblue;
+}
+
+.crest{
+    max-width: 30%;
+}
+
+.dzone{
+    border: 5px dotted black;
+    display: flex;
+    justify-content: center;
+
+    padding: 5em;
+    font-size: 2em;
+}

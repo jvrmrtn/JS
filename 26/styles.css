@@ -1,0 +1,19 @@
+a,
+button{
+    display: block;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.default{
+    background-color: lightcoral;
+}
+
+.into{
+    background-color: lightblue;
+}

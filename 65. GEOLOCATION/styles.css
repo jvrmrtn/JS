@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(57, 53, 71);
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background-color: rgb(167, 46, 102);
+    color: white;
+    border: none;
+    padding: 1em;
+    font-family: sans-serif;
+    border-radius: 25px;
+}
+
+.button:hover{
+    background-color: rgb(57, 53, 71);
+    color: rgb(167, 46, 102);
+    border:1px solid white;
+    transition: 0.5s;
+}
+
+.button:active{
+    background-color: rgb(167, 46, 102);
+    color: rgb(57, 53, 71);
+    border: 1px solid white;
+}
